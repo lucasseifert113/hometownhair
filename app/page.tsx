@@ -46,7 +46,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="hero" style={{backgroundImage: 'url(/images/bridal-half-up.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+      <section className="hero" style={{backgroundImage: 'url(/images/balayage-curls.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="hero-overlay" />
         <div className="relative z-10 text-center px-4">
           <h1 className="text-cream">
@@ -69,7 +69,7 @@ export default function Home() {
           <div className="services-grid">
             {/* Color Services */}
             <div className="glass-card service-card p-8">
-              <div className="text-4xl mb-4">🎨</div>
+              <div className="text-4xl mb-4">&#x2702;</div>
               <h3 className="text-cream">Color Services</h3>
               <ul className="text-cream text-sm">
                 <li>Balayage & Highlights</li>
@@ -80,7 +80,7 @@ export default function Home() {
 
             {/* Cuts & Styles */}
             <div className="glass-card service-card p-8">
-              <div className="text-4xl mb-4">✂️</div>
+              <div className="text-4xl mb-4"></div>
               <h3 className="text-cream">Cuts & Styles</h3>
               <ul className="text-cream text-sm">
                 <li>Bobs & Layers</li>
@@ -91,7 +91,7 @@ export default function Home() {
 
             {/* Bridal & Events */}
             <div className="glass-card service-card p-8">
-              <div className="text-4xl mb-4">💍</div>
+              <div className="text-4xl mb-4"></div>
               <h3 className="text-cream">Bridal & Events</h3>
               <ul className="text-cream text-sm">
                 <li>Bridal Styling</li>
@@ -102,7 +102,7 @@ export default function Home() {
 
             {/* Specialty Services */}
             <div className="glass-card service-card p-8">
-              <div className="text-4xl mb-4">⭐</div>
+              <div className="text-4xl mb-4"></div>
               <h3 className="text-cream">Specialty Services</h3>
               <ul className="text-cream text-sm">
                 <li>Perms & Waves</li>
@@ -120,7 +120,7 @@ export default function Home() {
           <h2 className="text-cream">Our Work</h2>
           
           <div className="gallery-grid">
-            <div className="gallery-item" style={{backgroundImage: 'url(/images/balayage-blonde.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+            <div className="gallery-item" style={{backgroundImage: 'url(/images/balayage-curls.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <span className="gallery-label">Balayage</span>
             </div>
             <div className="gallery-item" style={{backgroundImage: 'url(/images/copper-straight.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
@@ -166,7 +166,7 @@ export default function Home() {
               <div className="award-badge">
                 <img src="/images/best-of-2025.jpg" alt="Best of BusinessRate 2025" style={{width: '80px', height: '80px', objectFit: 'cover', borderRadius: '50%', marginRight: '16px', flexShrink: 0}} />
                 <div>
-                  <p><span className="award-star">⭐</span>Best Hair Salon 2025</p>
+                  <p>Best Hair Salon 2025</p>
                   <p>BusinessRate, Cuba City WI</p>
                 </div>
               </div>
@@ -184,14 +184,14 @@ export default function Home() {
             {/* Contact Info */}
             <div className="contact-info">
               <div className="contact-item">
-                <h3>📞 Call Us</h3>
+                <h3>Call Us</h3>
                 <a href="tel:6088850177">
                   (608) 885-0177
                 </a>
               </div>
 
               <div className="contact-item">
-                <h3>📍 Visit Us</h3>
+                <h3>Visit Us</h3>
                 <p>
                   105 S. Main St<br />
                   Cuba City, WI 53807
@@ -199,7 +199,7 @@ export default function Home() {
               </div>
 
               <div className="contact-item">
-                <h3>🕐 Hours</h3>
+                <h3>Hours</h3>
                 <p>
                   Monday - Saturday: 9:00 AM - 5:00 PM<br />
                   Sunday: Closed
@@ -236,7 +236,7 @@ export default function Home() {
             
             <p className="text-center md:text-right text-cream">
               &copy; 2025 Hometown Hair & Barber. All rights reserved.<br />
-              <span className="text-sm">📞 (608) 885-0177</span>
+              <span className="text-sm">(608) 885-0177</span>
             </p>
           </div>
         </div>
