@@ -8,7 +8,7 @@ const config: Config = {
     extend: {
       colors: {
         cream: "#FAF8F5",
-        charcoal: "#2C2C2C",
+        charcoal: "#0D0D0D",
         gold: "#C9A84C",
       },
       fontFamily: {
