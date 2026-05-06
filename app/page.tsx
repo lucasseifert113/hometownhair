@@ -19,7 +19,8 @@ export default function Home() {
       {/* Navigation */}
       <nav className={`${isScrolled ? 'scrolled' : ''}`}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
+            <img src="/images/logo-circle.jpg" alt="Hometown Hair Logo" style={{width: '36px', height: '36px', borderRadius: '50%', objectFit: 'cover'}} />
             <span className="font-serif text-2xl font-bold text-cream">
               Hometown Hair
             </span>
@@ -45,7 +46,8 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="hero">
+      <section className="hero" style={{backgroundImage: 'url(/images/bridal-half-up.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="hero-overlay" />
         <div className="relative z-10 text-center px-4">
           <h1 className="text-cream">
             Hometown Hair & Barber
@@ -118,23 +120,23 @@ export default function Home() {
           <h2 className="text-cream">Our Work</h2>
           
           <div className="gallery-grid">
-            <div className="gallery-item">
+            <div className="gallery-item" style={{backgroundImage: 'url(/images/balayage-blonde.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <span className="gallery-label">Balayage</span>
             </div>
-            <div className="gallery-item">
+            <div className="gallery-item" style={{backgroundImage: 'url(/images/copper-straight.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <span className="gallery-label">Full Color</span>
             </div>
-            <div className="gallery-item">
+            <div className="gallery-item" style={{backgroundImage: 'url(/images/bridal-half-up.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <span className="gallery-label">Bridal Styling</span>
             </div>
-            <div className="gallery-item">
+            <div className="gallery-item" style={{backgroundImage: 'url(/images/platinum-bob.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
               <span className="gallery-label">Bob Cut</span>
             </div>
-            <div className="gallery-item">
-              <span className="gallery-label">Perms & Waves</span>
+            <div className="gallery-item" style={{backgroundImage: 'url(/images/balayage-waves.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+              <span className="gallery-label">Balayage Waves</span>
             </div>
-            <div className="gallery-item">
-              <span className="gallery-label">Braids</span>
+            <div className="gallery-item" style={{backgroundImage: 'url(/images/bridal-braids.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+              <span className="gallery-label">Bridal Braids</span>
             </div>
           </div>
         </div>
@@ -146,8 +148,7 @@ export default function Home() {
           <h2 className="text-cream">Meet Michelle</h2>
           
           <div className="about-container">
-            <div className="about-avatar">
-              💁‍♀️
+            <div className="about-avatar" style={{backgroundImage: 'url(/images/michelle-logo.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
             </div>
             <div className="about-content">
               <p className="text-cream">
@@ -163,8 +164,11 @@ export default function Home() {
 
               {/* Award Section */}
               <div className="award-badge">
-                <p><span className="award-star">⭐</span>Best Hair Salon 2025</p>
-                <p>BusinessRate, Cuba City WI</p>
+                <img src="/images/best-of-2025.jpg" alt="Best of BusinessRate 2025" style={{width: '80px', height: '80px', objectFit: 'cover', borderRadius: '50%', marginRight: '16px', flexShrink: 0}} />
+                <div>
+                  <p><span className="award-star">⭐</span>Best Hair Salon 2025</p>
+                  <p>BusinessRate, Cuba City WI</p>
+                </div>
               </div>
             </div>
           </div>
