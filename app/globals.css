@@ -245,21 +245,11 @@ section h2::after {
 .gallery-item {
   aspect-ratio: 1;
   border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.25rem;
-  font-weight: 600;
-  text-align: center;
-  padding: 2rem;
-  background: linear-gradient(135deg, rgba(201, 168, 76, 0.3) 0%, rgba(44, 44, 44, 0.3) 100%);
-  backdrop-filter: blur(10px);
   border: 1px solid rgba(201, 168, 76, 0.2);
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  transition: all 0.3s ease;
-  animation: slideInLeft 0.6s ease-out;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .gallery-item::before {
@@ -436,6 +426,27 @@ footer {
 footer p {
   font-size: 0.95rem;
   color: rgba(250, 248, 245, 0.7);
+}
+
+/* Scroll Reveal Animations */
+.reveal {
+  opacity: 0;
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal-up { transform: translateY(40px); }
+.reveal-left { transform: translateX(-40px); }
+.reveal-right { transform: translateX(40px); }
+.reveal-scale { transform: scale(0.92); }
+
+.revealed {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* Bounce animation for scroll indicator */
+@keyframes bounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50% { transform: translateX(-50%) translateY(8px); }
 }
 
 /* Scrollbar Styling */
