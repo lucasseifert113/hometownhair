@@ -49,6 +49,7 @@ export default function Home() {
             </span>
           </div>
           <div className="hidden md:flex gap-8 items-center">
+            <a href="/careers" style={{ color: '#C9A84C', textDecoration: 'none', fontSize: '0.95rem', letterSpacing: '0.05em', fontWeight: 600 }}>Join Our Team</a>
             {['Services', 'Gallery', 'About', 'Contact'].map((link) => (
               <a key={link} href={`#${link.toLowerCase()}`} style={{ color: '#FAF8F5', textDecoration: 'none', fontSize: '0.95rem', letterSpacing: '0.05em', transition: 'color 0.3s' }}
                 onMouseEnter={e => (e.currentTarget.style.color = '#C9A84C')}
@@ -223,6 +224,7 @@ export default function Home() {
             <span style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.5rem', fontWeight: 700, color: '#FAF8F5' }}>Hometown Hair & Barber</span>
             <span style={{ color: '#C9A84C', letterSpacing: '0.15em', fontSize: '0.8rem', textTransform: 'uppercase' }}>Best Hair For You</span>
             <div style={{ width: 40, height: 1, background: '#C9A84C', opacity: 0.4 }} />
+            <a href="/careers" style={{ color: '#C9A84C', fontSize: '0.85rem', textDecoration: 'none', letterSpacing: '0.1em' }}>Join Our Team</a>
             <p style={{ color: 'rgba(250,248,245,0.5)', fontSize: '0.85rem' }}>
               &copy; 2025 Hometown Hair & Barber &nbsp;&bull;&nbsp; (608) 885-0177 &nbsp;&bull;&nbsp; 105 S. Main St, Cuba City, WI
             </p>
