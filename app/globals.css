@@ -229,10 +229,15 @@ section h2::after {
 }
 
 .service-card li::before {
-  content: "✨";
+  content: "";
   position: absolute;
   left: 0;
-  color: var(--gold);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--gold);
 }
 
 /* Gallery Grid */
