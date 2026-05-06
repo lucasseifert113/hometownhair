@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-cream">
@@ -7,13 +5,6 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-cream border-b border-gold border-opacity-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Image
-              src="/images/logo-script.jpg"
-              alt="Hometown Hair Logo"
-              width={40}
-              height={40}
-              className="rounded"
-            />
             <span className="font-serif text-xl font-bold text-charcoal">
               Hometown Hair
             </span>
@@ -36,26 +27,8 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        {/* Background image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/balayage-waves.jpg"
-            alt="Hero background"
-            fill
-            className="object-cover opacity-40"
-            priority
-          />
-        </div>
-        
+      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-cream">
         <div className="relative z-10 text-center px-4">
-          <Image
-            src="/images/logo-script.jpg"
-            alt="Hometown Hair Logo"
-            width={200}
-            height={200}
-            className="mx-auto mb-8 rounded-lg shadow-lg"
-          />
           <h1 className="text-6xl md:text-7xl font-serif font-bold text-charcoal mb-4">
             Hometown Hair & Barber
           </h1>
@@ -130,28 +103,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Gallery</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { src: "/images/balayage-waves.jpg", alt: "Balayage & Waves" },
-              { src: "/images/color-straight.jpg", alt: "Full Color" },
-              { src: "/images/balayage-long.jpg", alt: "Balayage Long Layers" },
-              { src: "/images/bob-platinum.jpg", alt: "Platinum Bob" },
-              { src: "/images/bridal-updo-1.jpg", alt: "Bridal Updo" },
-              { src: "/images/bridal-updo-2.jpg", alt: "Bridal Styling" },
-            ].map((photo, idx) => (
-              <div
-                key={idx}
-                className="relative aspect-square rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition"
-              >
-                <Image
-                  src={photo.src}
-                  alt={photo.alt}
-                  fill
-                  className="object-cover hover:scale-105 transition-transform"
-                />
-              </div>
-            ))}
-          </div>
+          <p className="text-charcoal text-lg text-center">Photos coming soon.</p>
         </div>
       </section>
 
@@ -161,16 +113,6 @@ export default function Home() {
           <h2 className="section-title">Meet Michelle</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <Image
-                src="/images/michelle-logo.jpg"
-                alt="Michelle"
-                width={400}
-                height={400}
-                className="rounded-lg shadow-lg"
-              />
-            </div>
-            
             <div>
               <p className="text-lg text-charcoal mb-6 leading-relaxed">
                 With over 15 years of experience in hair styling and design, Michelle has 
@@ -186,13 +128,6 @@ export default function Home() {
               {/* Award Section */}
               <div className="bg-gold bg-opacity-10 p-6 rounded-lg border border-gold border-opacity-30">
                 <div className="flex items-center gap-4">
-                  <Image
-                    src="/images/best-of-2025.jpg"
-                    alt="Best Hair Salon 2025"
-                    width={100}
-                    height={100}
-                    className="rounded"
-                  />
                   <div>
                     <p className="font-serif text-xl font-bold text-gold">
                       Best Hair Salon 2025
@@ -273,13 +208,6 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center gap-2 mb-4 md:mb-0">
-              <Image
-                src="/images/logo-bw.jpg"
-                alt="Hometown Hair Logo"
-                width={40}
-                height={40}
-                className="rounded"
-              />
               <span className="font-serif text-lg font-bold">Hometown Hair & Barber</span>
             </div>
             
