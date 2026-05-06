@@ -46,7 +46,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="hero" style={{backgroundImage: 'url(/images/balayage-curls.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+      <section className="hero" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="hero-overlay" />
         <div className="relative z-10 text-center px-4">
           <h1 className="text-cream">
