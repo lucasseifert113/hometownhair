@@ -66,7 +66,7 @@ export default function Careers() {
           Join Our Team
         </h1>
         <p style={{ color: 'rgba(250,248,245,0.7)', fontSize: '1.1rem', maxWidth: 560, margin: '0 auto 2rem' }}>
-          Hometown Hair & Barber is growing. If you are passionate about the craft and want to work in a welcoming, creative environment in Cuba City, we want to hear from you.
+          Hometown Hair & Barber is growing. Whether you are an experienced stylist, a recent graduate, or a cosmetology student looking for an internship, we want to hear from you.
         </p>
         <div style={{ width: 40, height: 2, background: '#C9A84C', margin: '0 auto', opacity: 0.5 }} />
       </section>
@@ -78,8 +78,8 @@ export default function Careers() {
             {[
               { title: 'Flexible Schedule', desc: 'Work hours that fit your life. We understand life happens.' },
               { title: 'Creative Freedom', desc: 'Express your artistry. Clients who trust your vision.' },
-              { title: 'Growing Client Base', desc: 'A new website and open house in May. More bookings coming.' },
-              { title: 'Great Culture', desc: 'Small team, supportive environment, no drama.' },
+              { title: 'Growing Client Base', desc: 'New website, open house in May, and a full booking system. More clients coming.' },
+              { title: 'Internship Programs', desc: 'Cosmetology students welcome. Hands-on experience in a real salon environment with a growing client base.' },
             ].map((item, i) => (
               <div key={i} className="glass-card" style={{ padding: '2rem' }}>
                 <div style={{ width: 32, height: 2, background: '#C9A84C', marginBottom: '1rem' }} />
@@ -128,6 +128,7 @@ export default function Careers() {
                   <option>Barber</option>
                   <option>Colorist</option>
                   <option>Salon Assistant</option>
+                  <option>Cosmetology Intern</option>
                   <option>Other</option>
                 </select>
               </div>
