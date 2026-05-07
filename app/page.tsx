@@ -158,7 +158,7 @@ export default function Home() {
       <section id="about" className="bg-dark-bg">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="reveal reveal-up">
-            <p style={{ textAlign: 'center', color: '#C9A84C', letterSpacing: '0.2em', fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '0.75rem' }}>Our Stylist</p>
+            <p style={{ textAlign: 'center', color: '#C9A84C', letterSpacing: '0.2em', fontSize: '0.8rem', textTransform: 'uppercase', marginBottom: '0.75rem' }}>Your Stylist & Barber</p>
             <h2 className="text-cream">Meet Michelle</h2>
           </div>
           <div className="about-container">
@@ -167,10 +167,10 @@ export default function Home() {
             </div>
             <div className="about-content reveal reveal-right">
               <p className="text-cream">
-                With years of experience in hair styling and design, Michelle has become Cuba City&apos;s trusted stylist for transformative hair experiences. Her passion for quality and attention to detail sets Hometown Hair & Barber apart.
+                With years of experience in hair and barber services, Michelle has become Cuba City&apos;s go-to stylist for anyone who takes their look seriously. Her attention to detail and commitment to quality sets Hometown Hair & Barber apart.
               </p>
               <p className="text-cream">
-                Whether you&apos;re looking for a fresh cut, color transformation, or bridal styling, Michelle brings expertise, creativity, and care to every appointment.
+                Whether you need a precision cut, color work, a straight razor shave, or a full style overhaul, Michelle brings expertise and care to every appointment -- for every client.
               </p>
               <div className="award-badge">
                 <img src="/images/best-of-2025.jpg" alt="Best of BusinessRate 2025" style={{ width: 80, height: 80, objectFit: 'cover', borderRadius: '50%', marginRight: 16, flexShrink: 0 }} />
